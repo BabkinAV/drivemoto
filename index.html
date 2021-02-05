@@ -148,24 +148,24 @@
     <div class="container">
       <div class="search__inner">
         <div class="search__tabs">
-          <a href="#tab-1" class="search__tabs-item search__tabs-item--active">Search by Item No</a>
-          <a href="#tab-2" class="search__tabs-item">Search by Manufacturer</a>
-          <a href="#tab-3" class="search__tabs-item">Search by Item name</a>
+          <a href="#tab-1" class="tab search__tabs-item tab--active">Search by Item No</a>
+          <a href="#tab-2" class="tab search__tabs-item">Search by Manufacturer</a>
+          <a href="#tab-3" class="tab search__tabs-item">Search by Item name</a>
         </div>
         <div class="search__content">
-          <div id="tab-1" class="search__content-item search__content-item--active">
+          <div id="tab-1" class="tabs-content search__content-item tabs-content--active">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Enter Item No">
               <button class="search__content-btn" type="submit">искать</button>
             </form>
           </div>
-          <div id="tab-2" class="search__content-item">
+          <div id="tab-2" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Enter Manufacturer">
               <button class="search__content-btn" type="submit">искать</button>
             </form>
           </div>
-          <div id="tab-3" class="search__content-item">
+          <div id="tab-3" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Enter Item Name">
               <button class="search__content-btn" type="submit">искать</button>
@@ -241,11 +241,21 @@
     <div class="container">
       <div class="products__inner">
         <div class="tabs-wrapper">
-          <div class="tabs">
-            <a href="#" class="tab"></a>
+          <div class="tabs products__tabs">
+            <a href="#" class="tab tab--active products__tab">Spare parts</a>
+            <a href="#" class="tab tab--active products__tab">Engines</a>
+            <a href="#" class="tab tab--active products__tab">Tires/a>
+            <a href="#" class="tab tab--active products__tab">Electronics</a>
+            <a href="#" class="tab tab--active products__tab">Tools</a>
+            <a href="#" class="tab tab--active products__tab">Accessories</a>
           </div>
-          <div class="tabs-container">
-            <div class="tabs-content"></div>
+          <div class="tabs-container products__container">
+            <div class="tabs-content products__content tabs-content--active"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
           </div>
         </div>
       </div>
@@ -258,3 +268,14 @@
 </body>
 
 </html>
+
+
+
+<!-- <div class="tabs-wrapper">
+  <div class="tabs">
+    <a href="#" class="tab"></a>
+  </div>
+  <div class="tabs-container">
+    <div class="tabs-content "></div>
+  </div>
+</div> -->

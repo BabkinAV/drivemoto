@@ -9,11 +9,11 @@ $(function(){
 
         e.preventDefault();
 
-        $('.search__tabs-item').removeClass('search__tabs-item--active');
-        $('.search__content-item').removeClass('search__content-item--active');
+        $('.search__tabs-item').removeClass('tab--active');
+        $('.tabs-content').removeClass('tabs-content--active');
 
-        $(this).addClass('search__tabs-item--active');
-        $($(this).attr('href')).addClass('search__content-item--active');
+        $(this).addClass('tab--active');
+        $($(this).attr('href')).addClass('tabs-content--active');
 
     });
 });
