@@ -5,15 +5,17 @@ $(function(){
         nextArrow: '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/arrow-right.svg" alt=""></button>', 
     });
 
-    $('.search__tabs-item').on('click', function(e) {
+    $('.tab').on('click', function(e) {
 
         e.preventDefault();
 
-        $('.search__tabs-item').removeClass('tab--active');
+        $('.tab').removeClass('tab--active');
         $('.tabs-content').removeClass('tabs-content--active');
 
         $(this).addClass('tab--active');
         $($(this).attr('href')).addClass('tabs-content--active');
 
     });
+
+    $('.product-slider').slick({});
 });
