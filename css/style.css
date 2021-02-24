@@ -661,9 +661,13 @@ a.product-item__notify-link {
     display: inline;
 }
 
+.products {
+    margin-bottom: 80px;
+}
+
 .product__more {
     text-align: center;
-    margin: 35px 0 80px;
+    margin: 35px 0 0;
 }
 
 .product__item-link {
@@ -676,4 +680,8 @@ a.product-item__notify-link {
     letter-spacing: 0.12em;
     padding: 16px 43px;
     background-color:#F0F0F4;
+}
+
+.banner {
+    margin-bottom: 80px;
 }
