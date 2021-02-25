@@ -779,3 +779,31 @@ a.product-item__notify-link {
 .social-list__item + .social-list__item {
     margin-left: 30px;
 }
+
+.breadcrumbs{
+    margin-bottom: 40px;
+}
+
+.breadcrumbs__list-item {
+    display: inline-block;
+    padding-right: 16px;
+    margin-right: 10px;
+    position: relative;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+
+.breadcrumbs__list-item::after {
+    position: absolute;
+    content:"";
+    right: 0;
+    background-image: url('../images/link-arrow.svg');
+    width: 6px;
+    height: 9px;
+    bottom: 4px;
+}
+
+.breadcrumbs__list-item:last-child::after {
+    display: none;
+}
