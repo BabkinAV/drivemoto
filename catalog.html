@@ -3,23 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible"
-    content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DRIVE MOTO</title>
-  <link rel="stylesheet"
-    href="css/normalize.css">
-  <link rel="stylesheet"
-    href="css/slick.css">
-  <link rel="stylesheet"
-    href="css/fonts.css">
-  <link rel="preconnect"
-    href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -186,8 +182,16 @@
         </div><!-- .catalog__filter-btn -->
       </div><!-- .catalog__filter -->
       <div class="catalog__inner">
-        <aside class="catalog__inner-aside">
-
+        <aside class="catalog__inner-aside aside-filter">
+          <div class="tabs-wrapper">
+            <div class="tabs aside-filter__tabs">
+              <a href="#tab-1" class="tab aside-filter__tab tab--active"><span>Параметры</span></a>
+              <a href="#tab-2" class="tab aside-filter__tab"><span>По марке</span></a>
+            </div>
+            <div class="tabs-container">
+              <div id="tab-1" class="tabs-content  tabs-content--active aside-filter__tabs-content"></div>
+              <div id="tab-1" class="tabs-content aside-filter__tabs-content"></div>
+          </div>
         </aside>
         <div class="catalog__inner-list">
           <div class="product-item__wrapper">
@@ -606,6 +610,9 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/ion.rangeSlider.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/jquery.rateyo.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

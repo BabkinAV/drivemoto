@@ -227,7 +227,7 @@ body {
     outline: none;
 }
 
-.slick-active li button {
+.slick-active>button {
     background-color: #fff;
 }
 
@@ -916,5 +916,31 @@ button.catalog__filter-btn button + button {
 }
 
 .pagination-list__item a {
+    display: block;
+}
 
+.aside-filter__tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-filter__tab {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    width: 50%;
+
+}
+
+.aside-filter__tab.tab--active {
+    color: #2F3035;
+    font-family: 'SFProDisplay-Bold';
+}
+
+.aside-filter__tab.tab--active span {
+    display: inline-block;
+    border-bottom: 2px solid #1C62CD;
+    padding-bottom: 7px;
 }
