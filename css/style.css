@@ -1389,3 +1389,90 @@ a.product-item__notify-link {
     color: #C4C4C4;
     
 }
+
+.product-card {
+    margin-bottom: 80px;
+}
+
+.product-card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card__img-box {
+  width: 500px; 
+  padding-top: 64px; 
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  position: relative;
+
+}
+
+.product-card__img-box::before {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    padding: 13px 25px;
+    border-radius: 3px;
+}
+
+.product-card__content {
+    width: 570px;
+}
+
+.product-card__price-old {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    opacity: 0.6;
+    margin-bottom: 6px;
+    background-image: url('../images/old-line.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+
+}
+
+.product-card__price-new {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.product-card__link {
+    font-size: 15px;
+    line-height: 18px;
+    color: #1C62CD;
+}
+
+.product-card__title {
+    font-family: 'SFProDisplay-Bold';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.product-card__code {
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.6;
+    margin-bottom: 22px;
+}
+
+.product-card__buttons {
+    margin-bottom: 50px;
+}
+
+.product-card__tab {
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+    padding-bottom: 5px;
+    padding-right: 17px;
+}
+
+.product-card__tab + .product-card__tab {
+    padding-left: 17px;
+}
