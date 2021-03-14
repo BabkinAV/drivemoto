@@ -1471,8 +1471,175 @@ a.product-item__notify-link {
     opacity: 0.6;
     padding-bottom: 5px;
     padding-right: 17px;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 
 .product-card__tab + .product-card__tab {
     padding-left: 17px;
 }
+
+.product-card__tab.tab--active {
+    opacity: 1;
+    border-bottom: 2px solid #1C62CD;
+    font-weight: bold;
+    font-family: 'SFProDisplay-Bold';
+}
+
+.product-card__item {
+    padding: 15px 0 6px;
+    border-bottom: 1px solid rgba(47, 48, 53, .1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card__item-left {
+    padding-right: 15px;
+}
+
+.product-card__item-right {
+    width: 125px;
+}
+
+.product-card__more {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #1C62CD;
+    display: inline-block;
+    margin: 20px 0 20px;
+}
+
+.product-card__list {
+    margin-bottom: 20px;
+}
+
+.product-card__btn button {
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 16px 53px;
+    color: #FFFFFF;
+    background: #1C62CD;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-card__buttons a + a{
+    margin-left: 30px;
+}
+
+.product-card__buttons a {
+    display: inline-block;
+}
+
+.card__tab-box {
+    background-color: #F0F0F4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.card__tabs {
+    margin-bottom: 100px;
+}
+
+.card__tab {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F3035;
+    opacity: 0.6;
+    padding-bottom: 5px;
+}
+
+.card__tab.tab--active {
+    opacity: 1;
+    border-bottom: 2px solid #1C62CD;
+}
+
+.card__top-line {
+    margin-bottom: 10px;
+}
+
+.card__label-search {
+    font-size: 17px;
+    line-height: 20px;
+    color:rgba(47, 48, 53, 0.7);
+}
+
+.card__input-search {
+    margin-left: 17px;
+    padding: 9px 37px 9px 17px ;
+    background: #F0F0F4;
+    border-radius: 3px;
+    border: none;
+    margin-right: 100px;
+}
+
+.card__label-pickup {
+    margin-left: 54px;
+    font-size: 17px;
+    line-height: 20px;
+    color:rgba(47, 48, 53, 0.7);
+}
+
+.card__list-item {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(47, 48, 53, .1);
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    color:rgba(47, 48, 53, 0.7);
+        
+}
+
+.card__list-item.card__list-itemtitle {
+    color:rgba(47, 48, 53);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card__list-address {
+    width: 220px;
+    margin-right: 80px;
+}
+
+.card__list-workhours {
+    width: 165px;
+    margin-right: 108px;
+}
+
+.workhours {
+    display: flex;
+    justify-content: space-between;
+}
+.card__list-available {
+    width: 140px;
+    margin-right: 140px;
+}
+
+.card__list-num {
+    width: 104px;
+}
+
+.card__list-btn {
+    margin-left: auto;
+}
+
+.card__list-btn button{
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    background-color: #1C62CD;
+    border: none;
+    padding:  10px 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
