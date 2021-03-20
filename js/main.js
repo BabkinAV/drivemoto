@@ -72,4 +72,9 @@ $(function(){
         fullStar: true,
         spacing: "5px"
       });
+
+    //   *******************mobile menu******************
+    $('.menu__btn').on('click', function() {
+        $('.menu-mobile__list').toggleClass('menu-mobile__list--active')
+    });
 });
