@@ -1685,3 +1685,14 @@ a.product-item__notify-link {
     text-transform: uppercase;
 }
 
+.product-slider .slick-dots {
+    bottom: -30px;
+}
+
+.product-slider .slick-dots button {
+    background-color: #C4C4C4;
+}
+
+.product-slider .slick-dots .slick-active button {
+    background-color: #1C62CD;
+}

@@ -1,3 +1,10 @@
+@media (max-width: 1300px) {
+    .product__more {
+        margin-top: 60px;
+    }
+}
+
+
 @media (max-width: 1200px) {
     .banner-section__slider-img {
         min-height: 300px;
@@ -14,6 +21,9 @@
     }
     .categories__inner {
         justify-content: space-around;
+    }
+    .banner-link img {
+        width: 100%;
     }
 }
 
@@ -105,6 +115,17 @@
 
 }
 
+@media (max-width: 640px) {
+    .footer__top-inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__top-item {
+        margin-bottom: 25px;
+    }
+
+}
+
 
 
 @media (max-width: 640px) {
@@ -142,6 +163,77 @@
         position: relative;
         
     }
+
+    .banner-link img {
+        min-height: 90px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer__top-item{
+        width: 100%;
+    }
+    .footer__bottom {
+        flex-direction: column;
+        align-items: start;
+
+    }
+    .footer__bottom-link {
+        margin: 12px 0;
+    }
+    .footer__top-inner {
+        justify-content: start;
+    }
+    .footer__top-newsletter.footer__top-item {
+        margin-right: auto;
+        margin-left: auto;
+        width: 290px;
+        text-align: center;
+    }
+    .footer__top-social.footer__top-item {
+        width: 100%;
+        border-bottom: 0;
+        
+    }
+    .social-list {
+        justify-content: center;
+    }
+    .footer-list {
+        display: none;
+    }
+
+    .footer__top-title.footer__topdrop {
+        font-size: 14px;
+        line-height: 18px;
+        color: #7F7F7F;
+        padding: 15px 0;
+    }
+    .footer__top-item {
+        border-bottom: 2px solid #F9F9FC;
+    }
+    .footer__top-item-itemdrop {
+        margin-bottom: 0;
+        border-top: 2px solid #F9F9FC;
+    }
+    .footer__topdrop {
+        position: relative;
+    }
+    .footer__topdrop::after {
+        content: "";
+        position: absolute;
+        background-image: url('../images/arrow-down.svg');
+        right: 0px;
+        top: 21px;
+        width:12px;
+        height: 8px;
+        transform: rotate(0deg); 
+    }
+    .footer__topdrop--active::after {
+        transform: rotate(180deg);
+    }
+
+
 }
 
 
