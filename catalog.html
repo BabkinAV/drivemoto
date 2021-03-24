@@ -25,7 +25,13 @@
       <div class="container">
         <div class="header__top-inner">
           <nav class="menu">
+            <button class="menu__btn">
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+            </button>
             <ul class="menu__list">
+
               <li class="menu__item">
                 <a href="#" class="menu__link">
                   Stores
@@ -72,6 +78,110 @@
         </div>
       </div>
     </div>
+
+    <ul class="menu-mobile__list">
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Sign in</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Registration</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/heart.svg" alt="">
+          <p>Favourite</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/basket.svg" alt="">
+          <p>Cart</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/house.svg" alt="">
+          <p>Stores</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/percent.svg" alt="">
+          <p>Promos</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/box.svg" alt="">
+          <p>Payment & Delivery</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Quad bikes</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Jetboats</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Jetskis</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Boats</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Off-roaders</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Snowmobiles</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Engines</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Spare parts</p>
+        </a>
+      </li>
+    </ul>
+    <div class="menu__mobile-linewrapper">
+      <ul class="menu__mobile-line">
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            Stores
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            Promos
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            Delivery & payment
+          </a>
+        </li>
+      </ul>
+    </div>
     <div class="header__bottom">
       <div class="container">
         <ul class="menu-categories">
@@ -107,15 +217,16 @@
 
   <div class="breadcrumbs">
     <div class="container">
-      <ul class="breadcrumbs__list">
-        <li class="breadcrumbs__list-item">
-          <a href="#">Main</a>
-        </li>
-        <li class="breadcrumbs__list-item">
-          <a href="#">Jetskis</a>
-        </li>
-
-      </ul>
+      <div class="breadcrumbs__inner">
+        <ul class="breadcrumbs__list  mobile-overflow">
+          <li class="breadcrumbs__list-item">
+            <a href="#">Main</a>
+          </li>
+          <li class="breadcrumbs__list-item">
+            <a href="#">Jetskis</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -125,11 +236,13 @@
         Jetskis
       </h2>
       <div class="catalog__filter">
-        <div class="catalog__filter-items">
-          <button>four-by-four</button>
-          <button>from 5000</button>
-          <button>BRP</button>
-          <button>more</button>
+        <div class="catalog__filter-item--inner">
+          <div class="catalog__filter-items  mobile-overflow">
+            <button>four-by-four</button>
+            <button>from 5000</button>
+            <button>BRP</button>
+            <button>more</button>
+          </div>
         </div>
         <div class="catalog__filter-btn">
           <select class="filter-style select-item">
@@ -162,12 +275,16 @@
         </div><!-- .catalog__filter-btn -->
       </div><!-- .catalog__filter -->
       <div class="catalog__inner">
+        <div class="aside__btn">
+          Filter
+        </div>
         <aside class="catalog__inner-aside aside-filter">
-          <div class="tabs-wrapper">
+          <div class="tabs-wrapper tabs-wrapper--no-scroll">
             <div class="tabs aside-filter__tabs">
               <a href="#tab-1" class="tab aside-filter__tab tab--active"><span>Parameters</span></a>
               <a href="#tab-2" class="tab aside-filter__tab"><span>By Brand</span></a>
             </div>
+          </div>
             <div class="tabs-container">
               <div id="tab-1" class="tabs-content  tabs-content--active aside-filter__tabs-content">
                 <form action="" class="aside-filter__form">
@@ -392,7 +509,6 @@
               </div>
               <div id="tab-2" class="tabs-content aside-filter__tabs-content"></div>
             </div>
-          </div>
         </aside>
         <div class="catalog__inner-list">
           <div class="product-item__wrapper">
@@ -689,6 +805,8 @@
     </div><!-- container -->
   </section>
 
+  
+ 
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
@@ -702,8 +820,8 @@
               <button class="footer-form__btn" type="submit">Send</button>
             </form>
           </div>
-          <div class="footer__top-item">
-            <h6 class="footer__top-title">
+          <div class="footer__top-item footer__top-item-itemdrop">
+            <h6 class="footer__top-title footer__topdrop">
               Information
             </h6>
             <ul class="footer-list">
@@ -714,7 +832,7 @@
             </ul>
           </div>
           <div class="footer__top-item">
-            <h6 class="footer__top-title">
+            <h6 class="footer__top-title footer__topdrop">
               Internet store
             </h6>
             <ul class="footer-list">
@@ -770,13 +888,3 @@
 </body>
 
 </html>
-
-
-<!-- <div class="tabs-wrapper">
-  <div class="tabs">
-    <a href="#" class="tab"></a>
-  </div>
-  <div class="tabs-container">
-    <div class="tabs-content "></div>
-  </div>
-</div> -->

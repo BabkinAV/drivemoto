@@ -286,6 +286,11 @@ body {
     justify-content: space-between;  
 }
 
+.aside__btn {
+    display: none;
+
+}
+
 .sale-item__top {
     display: flex;
     justify-content: space-between;
@@ -1695,4 +1700,12 @@ a.product-item__notify-link {
 
 .product-slider .slick-dots .slick-active button {
     background-color: #1C62CD;
+}
+
+.product-card__btn-mobile {
+    display: none;
+}
+
+.footer__topdrop {
+    pointer-events: none;
 }
