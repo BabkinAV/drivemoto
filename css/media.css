@@ -178,6 +178,10 @@
     .card__list-itemtitle {
         display: none !important;
     }
+
+    .card__list-item {
+        display: block;
+    }
     .card__list-item div{
         display: block;
         margin-bottom: 15px;
