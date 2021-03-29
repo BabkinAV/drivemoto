@@ -2,7 +2,7 @@
 
 Static layout of internet store project, fully ready for backend.
 
-##Layout pages:
+## Layout pages:
 
 #### 1. Main store page
 ![jestski-01](https://user-images.githubusercontent.com/47148325/112822946-478cce80-9091-11eb-8af8-6466c4c4e158.png)
